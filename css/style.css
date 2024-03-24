@@ -1,0 +1,142 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+img {
+    width: 100%;
+}
+
+ul, li, menu {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FD9594;
+    font-size: 12px;
+}
+
+/* APP */
+#app{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+    background-color:#E5E6EA;
+}
+
+/* CONTAINER PRINCIPALE */
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/*  */
+
+/* MAIN */
+
+main{
+    width: calc(8 * (100% / 12));
+    padding: 35px;
+    background-color: white;
+}
+
+/*  */
+
+/* TABELLA MAIN */
+
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+table thead tr th{
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+    width: 80px;
+}
+
+
+table tbody tr td{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* INFO PRODUCT */
+
+.info-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+/*  */
+
+/* PRODUCT-REFERENCE */
+.product-reference{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* QUANTIY */
+
+.quantity-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.quantity-input input{
+    width: 23px;
+    aspect-ratio: 1;
+    outline: none;
+}
+
+/* ASIDE */
+
+aside{
+    width: calc(4 * (100% / 12));
+    padding: 35px;
+    background-color: #F5F5F6;
+}
+
+/*  */
+
+/* UTILITY */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(68, 67, 67);
+}
+
+
+.flex{
+    display: flex;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.img-product{
+    max-width: 55px;
+}
+/*  */
+
+
+
